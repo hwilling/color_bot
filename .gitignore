@@ -362,3 +362,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+.vs/color_bot/DesignTimeBuild/.dtbcache.v2
+.vs/color_bot/v16/.suo
+color_bot/obj/Debug/netcoreapp3.1/color_bot.csprojAssemblyReference.cache
+.vs/color_bot/v16/.suo
+color_bot/obj/Debug/netcoreapp3.1/color_bot.csprojAssemblyReference.cache
+.vs/color_bot/DesignTimeBuild/.dtbcache.v2
