@@ -34,6 +34,7 @@ namespace color_bot
         public async Task MainAsync()
         {
             // Tokens should be considered secret data, and never hard-coded.
+            // Visual Studio may need to be restarted after setting the env var, took me a bit to figure that one out :)
             await _client.LoginAsync(TokenType.Bot, Environment.GetEnvironmentVariable(botToken));
             await _client.StartAsync();
 

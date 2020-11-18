@@ -4,7 +4,7 @@ namespace color_bot.Controllers
 {
     internal class CommandParser
     {
-        private readonly string _hexRegex = @"(?i)[0-9a-f]{6}";
+        private readonly string _hexRegex = @"\b(?i)[\da-f]{6}\b";
 
         public CommandParser() { }
 
